@@ -1,11 +1,12 @@
-import Navbar from "./Navbar"
+import Cards from "./components/Cards"
+import Navbar from "./components/Navbar"
 
 export default function App() {
-
-
   return (
     <>
-      <Navbar/>
+      <Navbar />
+      <Cards />
+
     </>
   )
 }
